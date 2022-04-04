@@ -1,0 +1,51 @@
+.main-nav{
+    display: flex;
+    max-width: 117rem;
+    margin:0 auto;
+    justify-content: space-between;
+  
+}
+.nav-lft,
+.nav-rt{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-lft,
+.nav-rt{
+    &__item{
+        padding: 1.1rem 1.5rem;
+        border-left: 1px solid $color-border-blue;
+    }
+    &__item:last-child{
+        border-right: 1px solid $color-border-blue;
+    }
+    &__link:link,
+    &__link:visited{
+        display: flex;
+        color: $color-white;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    &__item:hover{
+       background-color: $color-active;
+    }
+
+    &__icon{
+        fill: $color-white;
+        height: 1.6rem;
+        width: 1.6rem;
+    }
+
+    &__sec-icon{
+        fill: $color-white;
+        height: 1rem;
+        width: 1rem;
+    }
+    &__label{
+        padding-left: 1.2rem;
+    }
+}
+
+

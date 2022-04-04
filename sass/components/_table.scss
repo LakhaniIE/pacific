@@ -1,0 +1,67 @@
+.tab-nav{
+    display: flex;
+    list-style: none;
+
+    &__item{
+
+        padding: .6rem 1rem;
+        border-top: 1px solid $color-border-blue;
+        border-left: 1px solid $color-border-blue;
+        background-color: $color-tab-bg;
+    }
+    &__item:last-child{
+
+        border-right: 1px solid $color-border-blue;
+    }
+    &__notification{
+        padding: .2rem .5rem;
+        margin-left: .5rem;
+        background-color: $color-active;
+        border-radius: .4rem;
+        font-size: 1.2rem;
+    }
+    &__link{
+        align-items: center;
+    }
+    &__link:link,
+    &__link:visited{
+        display: flex;
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+.table-content{
+    display: grid;
+    grid-template-columns: max-content repeat(8,1fr);
+    border: 1px solid $color-table-border;
+    margin-bottom: 8.1rem;
+}
+
+.table-header{
+    padding: .8rem .6rem;
+    background-color: $color-tab-active;
+    &--one{
+        padding: .5rem 1.1rem;
+    }
+}
+
+.row{
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: max-content repeat(8,1fr);
+}
+.table-col{
+    align-self: center;
+    margin: .5rem .6rem;
+}
+
+.full-width{
+    padding: .5rem .6rem;
+    grid-column: 1/-1;
+}
+
+.row:nth-child(odd) {
+    background: $color-blue-row;
+}
+
+

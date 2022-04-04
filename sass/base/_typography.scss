@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI','Tahoma','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.main-nav{
+    text-transform: uppercase;
+    color: $color-white;
+}
+.tab-nav {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.table-header{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: $color-white;
+    font-size: 1.2rem;
+}
+.table-col{
+    font-weight: 600;
+}
+.full-width{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $color-link-blue;
+}
+
+.filter{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.label{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.dashboard{
+    &__header{
+        color: $color-white;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+    &__mtf{
+        font-weight: 600;
+    }
+}
+
+.mtf-select{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'segoe', 'Segoe UI', sans-serif;
+}
+
+.total{
+    font-size: 2rem;
+    font-weight: 700;
+    color: $color-white;
+    text-align: center;
+    padding: 1.8rem 0;
+    margin-bottom: 1rem;
+}
+
+.cnt{
+    font-size: 1.6rem;
+}
+.btn{
+
+    font-weight: 600;
+    text-transform: uppercase;
+    align-self: center;
+}
+.btn-txt{
+    font-size: 1.3rem;
+}
+.table-footer{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+.footer-btn,
+.footer-link,
+.footer__right{
+    font-weight: 600;
+    color: $color-bg-blue;
+}
+.footer-btn{
+    text-transform: uppercase;
+    padding-right: 1.5rem;
+}
+.footer-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:$color-dark-blue;
+}
+
+.footer-link,
+.footer__right{
+    text-transform: capitalize;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+    color:$color-dark-blue;
+
+}
+.footer__right{
+    font-size: 1.2rem;
+}

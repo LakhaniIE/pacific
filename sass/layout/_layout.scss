@@ -1,0 +1,120 @@
+.container{
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.header{
+    max-width: 117rem;
+    margin:0 auto;
+    display: flex;
+    padding: 1.6rem 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 500;
+}
+
+.logo-box{
+    min-width: 40rem;
+}
+
+.progress-box{
+    display: grid;
+    grid-template-columns: repeat(7,1fr) max-content;
+    grid-template-rows: repeat(3,max-content);
+    width: 100%;
+    align-content: center;
+}
+
+.steps {
+    grid-row: 2/3;
+    z-index: 20;
+    justify-self:start;
+    display: grid;
+    &--one{
+        grid-column: 1/2; 
+    }
+
+    &--two{
+        grid-column: 2/3;
+        z-index: 10;
+    }
+    &--three{
+        grid-column: 3/4;
+        z-index: 10;
+    }
+    &--four{
+        grid-column: 4/5;
+        z-index: 10;
+    }
+    &--five{
+        grid-column: 5/6;
+        z-index: 10;
+    }
+    &--six{
+        grid-column: 6/7;
+        z-index: 10;
+    }
+    &--seven{
+        grid-column: 7/8;
+        z-index: 10;
+    }
+    &--eight{
+        grid-column: 8/9;
+        z-index: 10;
+        // justify-self: end;
+    }
+}
+
+
+.nav-container{
+    background-color: $color-bg-blue;
+    height: 4rem;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 11.7rem;
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.content{
+    display: flex;
+    max-width: 117rem;
+    margin: 10 auto 0 auto;
+    transform: translateY(15.7rem);
+}
+
+.table{
+    flex: 1;
+}
+
+.table-footer-content-container{
+    position: fixed;
+    margin: 0 auto;
+    width: 117rem;
+    top: 94.6vh;
+    left: 0;
+    right:0;
+    z-index: 600;
+}
+
+.footer-container{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: $color-white;
+    top: 97.8vh;
+    right: 0;
+    left: 0;
+    border-top: 1px solid $color-bg-blue;
+    padding: .5rem 0;
+}
+
+
+

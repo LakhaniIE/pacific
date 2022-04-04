@@ -1,0 +1,99 @@
+.sidebar{
+    // width: 27.1rem;
+    height: max-content;
+    display: grid;
+    margin-left:1.5rem;
+   
+
+}
+
+.filter{
+    padding: .5rem 1rem;
+    color: $color-filter-grey;
+    background-color: $color-filter-bg;
+    border-width: .1rem;
+    border-radius: .3rem;
+    grid-row: 1/2;
+    justify-self: end;
+    margin-bottom: .5rem;
+    border:1px solid $color-filter-border;
+
+    &__icon{
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: .5rem;
+        fill: $color-filter-grey;
+    }
+}
+
+ .dashboard{
+    border: 1px solid #ccc;
+     &__header{
+         display: grid;
+         grid-template-columns: 1fr repeat(2,max-content);
+         padding: .6rem 1rem;
+         background-color: $color-tab-active;
+         align-items: center;
+     }
+     .mtf-select{
+         padding: .3rem .5rem;
+         background-color: $select-box;
+         border:1px solid $color-white;
+         margin-left: .5rem;
+         width: 8.05rem;
+     }
+ }
+
+ .chart{
+     padding: 1rem;
+     &__img{
+         max-width: 24.8rem;
+     }
+ }
+
+ .total-cost{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 1rem;
+}
+
+.btn-container{
+    display: grid;
+    padding: 0 1rem;
+}
+.btn{
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    background-color: transparent;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    border: .1rem solid #dbdbdb;
+    
+    width: 100%;
+
+    &--1{color: $color-side-btn-1;}
+    &--2{color: $color-side-btn-2;}
+    &--3{color: $color-side-btn-3;}
+    &--4{color: $color-table-border;}
+   
+}
+
+.cnt{
+    border-right: .1rem solid #dbdbdb;
+    padding: .8rem .7rem;
+}
+.btn-txt{
+    padding: 0 .7rem;
+    align-self: center;
+    justify-self: start;
+    
+}
+
+.btn-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    align-self: center;
+    margin-right: .7rem;
+}
+
